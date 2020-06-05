@@ -15,7 +15,7 @@ from image import run
 
 parser = argparse.ArgumentParser(description='superpixel MNIST')
 parser.add_argument('--dataset', default='MNIST', type=str)
-parser.add_argument('--device_idx', default=0, type=int)
+parser.add_argument('--device_idx', default=3, type=int)
 parser.add_argument('--kernel_size', default=25, type=int)
 parser.add_argument('--lr', type=float, default=1e-4)
 parser.add_argument('--lr_decay', type=float, default=0.99)

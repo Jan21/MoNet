@@ -59,7 +59,6 @@ class GMMConv(MessagePassing):
 
         return (x_j * gaussian).sum(dim=1)
 
-
     def __repr__(self):
         return '{}({}, {}, kernel_size={})'.format(self.__class__.__name__,
                                                    self.in_channels,
